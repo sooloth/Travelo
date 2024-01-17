@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 1rem 2rem;
+  font-family: "Poppins", sans-serif, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 0.6rem;
+  background-color: #14213d;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #4539e6;
+}
